@@ -126,22 +126,11 @@ a:hover .span, li:hover .span-contact{
 	transition-delay: 0.2s;
 	transition: 0.7s;
 }
-/*
-header nav.desktop a:hover{
-	color: #09ec09;
-}
-*/
 section.banner img{
-	/*overflow:hidden;*/
 	width: 100%;
 	height: 80vh;
 	object-fit: fill;
 	position: relative;
-	/*
-	background-image: url('../imagens/bglim.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	*/
 }
 .efct{
 	position:absolute;
@@ -207,15 +196,11 @@ section.veiculos-destaque{
 	padding:90px 2%;
 }
 section.veiculos-destaque .container{
-	/*Vamos deixar o padrão que é 1400px*/
-	/*max-width: 1000px;*/
 	min-height: 500px;
 	padding:40px 0;
-	/*background: #4b3a3a;*/
 	display: flex;
 }
 .line-titulo{
-	/*Trocamos por 1400 para seguir com o mesmo tamanho do nosso contexto padrão da classe container!*/
 	max-width: 1400px;
 	margin:0 auto;
 	position: relative;
@@ -250,8 +235,6 @@ section.veiculos-destaque .container{
 	margin: 0 auto;
 }
 .vitrine-destaque{
-
-	/*border:8px solid rgb(219, 147, 147);*/
 	background-size: 100% 100%;
 }
 /***Modal***/
@@ -329,17 +312,7 @@ section.veiculos-destaque .container{
 .info-carro{
 	width: 100%;
 	position: relative;
-	/*border:8px solid rgb(168, 32, 32);*/
 }
-/*
-.carro-img .numbertext {
-    color: #070707;
-    font-size: 12px;
-	position: absolute;
-	z-index: 9;
-    padding: 8px 12px;
-}
-*/
 /* Next & previous buttons */
 .prev, .prev1, .prev2, .next, .next1, .next2{
     cursor: pointer;

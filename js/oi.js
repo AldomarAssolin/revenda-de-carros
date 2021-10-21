@@ -145,29 +145,3 @@ function myTimer() {
   document.querySelector(".scroll-top-date").innerHTML = t;
   document.querySelector(".scroll-top-date").innerHTML = dat + '<br>' + t;
 }
-/*
-//Modal inicio
-var modal = document.querySelector('.windowModal');
-var x = document.querySelector('.btn');
-var closeBtn = document.querySelector('.closeBtn');
-
-x.addEventListener('click', modalA);
-closeBtn.addEventListener('click', closedModal);
-
-function modalA() {
-    if (modal == 'block') {
-        modal.style.display = 'none';
-    } else {
-        modal.style.display = 'block';
-        modal.style.transition = 'linear 0.6s';
-    }
-}
-function closedModal() {
-    if (modal == 'none') {
-        modal.style.display = 'block';
-    } else {
-        modal.style.display = 'none';
-    }
-}
-//Modal fim
-*/
