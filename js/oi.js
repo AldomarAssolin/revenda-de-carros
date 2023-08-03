@@ -139,6 +139,7 @@ var myVar = setInterval(myTimer, 1000);
 
 function myTimer() {
   var d = new Date();
+  
   var t = d.toLocaleTimeString();
   var dat = d.toLocaleDateString();
   //var day = d.getVarDate()
